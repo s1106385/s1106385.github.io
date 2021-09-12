@@ -1,0 +1,292 @@
+* {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+html {
+    background-color: #EFEFF4;
+}
+
+html, body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 12px 0 12px 0;
+    background-color: rgba(249, 249, 249, 0.95);
+    box-shadow: 0px 1px 2px rgba(119, 119, 119, 0.4);
+    text-align: center;
+    color: #1F1F21;
+    font-size: 1.2em;
+    z-index: 100;
+}
+
+body {
+    padding-top: 54px;
+    font-size: 1.2em;
+    color: #8E8E93;
+}
+
+footer {
+    padding: 24px;
+    font-size: 0.5em;
+    text-align: center;
+}
+
+div.nextbus, div.timetable.ushuttle {
+    margin: 12px 12px 0 12px;
+    padding: 10px;    
+    color: #F7F7F7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div.gmb26,div.gmb26a {
+    background-color: #4CD964;
+}
+
+div.ushuttle {
+    background-color: #FF9500;
+}
+
+div.scshuttle {
+    background-color: #5856D6;
+}
+
+div.terminalup {
+    height: 0;
+    width: 0;
+    border-style: solid;
+    border-width: 0 8px 16px 8px;
+    border-color: transparent transparent #5BCAFF transparent;
+}
+
+div.terminaldown {
+    height: 0;
+    width: 0;
+    border-style: solid;
+    border-width: 16px 8px 0 8px;
+    border-color: #5BCAFF transparent transparent transparent;
+}
+
+div.stop {
+    height: 16px;
+    width: 16px;
+    background-color: #5BCAFF;
+    border-radius: 50%;
+}
+
+.time {  
+    min-width: 50px;
+    text-align: center;
+    float: right;
+    padding: 4px;
+    margin-top: -4px;
+    color: #1F1F21;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+table {
+    display: none;
+    background-color: #FFFFFF;
+    border: 18px solid #EFEFF4;
+    border-top: 0 solid transparent;
+    padding: 6px;
+    text-align: center;
+    color: #1F1F21;
+    width: 100%;
+}
+
+td.next {
+    width: 23px;
+    background-color: #FF3B30;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+
+table:not(:last-child) {
+    border-bottom: 0;
+}
+
+.timetable.ushuttle tr:first-child {
+    background-color: #333333;
+}
+
+.timetable.ushuttle tr:first-child th {
+    color: #F7F7F7;
+}
+
+.timetable th {
+    color: #5BCAFF;    
+}
+
+tr.note {
+    display: none;
+    text-align: left;
+}
+
+tr.active {
+    display: table-row;
+}
+
+td.fmarket {
+    width: 50%;
+}
+
+table.faretb th {
+    width: 50%;
+}
+
+table.scshuttle td.next {
+    width: 50%;
+    border-radius: 0;
+}
+
+table.timetable.ushuttle td {
+    visibility: hidden;
+}
+
+table.timetable.ushuttle td.exist {
+    visibility: visible;
+}
+
+.timetable td.special {
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;    
+}
+
+.mainroad div{
+    margin: auto;
+}
+
+ol {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.back img {
+    vertical-align: sub;
+    padding-right: 4px;
+    height: 28px;
+    width: 18px;
+}
+
+.navbar {
+    margin: 10px 10px 20px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.navbar.ushuttle {
+    border: 2px solid #FF9500;
+}
+
+.navbar.gmb26 {
+    border: 2px solid #4CD964;
+}
+
+.navbar nav {
+    background-color: #EFEFF4;
+    cursor: pointer;
+    padding: 4px;    
+}
+
+.navbar.ushuttle nav {    
+    color: #FF9500;
+}
+
+.navbar.gmb26 nav {
+    color: #4CD964;
+}
+
+.navbar nav.active {
+    color: #EFEFF4;
+}
+
+.navbar.ushuttle nav.active {
+    background-color: #FF9500;
+}
+
+.navbar.gmb26 nav.active {
+    background-color: #4CD964;
+}
+
+#shuttleeta, #timetable, #route26 {
+    float: left;
+    width: 50%;
+}
+
+div.container {
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.back {
+    text-decoration: none;
+    position: fixed;
+    left: 0;
+    z-index: 100;
+    cursor: pointer;
+    font-size: 0.9em;
+    float: left;
+    margin-left: 8px;
+    color: #007AFF;
+    font-weight: bold;
+}
+
+li.special {
+    display: none;
+}
+
+li.special:before {
+    content: "\2022\0020";
+    font-size: 120%;
+}
+
+.eta.ushuttle { 
+    display: none;
+    min-width: 50px;
+    margin: 0 16px 0 16px;
+    color: #1F1F21;
+    background-color: #FFFFFF;
+    border-radius: 0 0 5px 5px;
+}
+
+.eta div {
+    padding: 5px 5px 5px 30px;
+}
+
+.eta div.schedule:not(:last-child) {    
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.eta div div.special {
+    float: left;
+    margin-left: -60px;
+    margin-right: -5px;
+    margin-top: -5px;
+    padding: 0 0 0 30px;
+    width: 30px;
+    text-align: center;
+    font-size: 150%;
+}
+
+.eta.notrip {
+    padding: 5px;
+    text-align: center;
+}
+
+.eta div div.blk {
+    float: right;
+    color: #FF3B30;
+    padding: 0 5px 5px 0;
+}
+
+.timetable td.exist.blk {
+    color: #FF3B30;
+}

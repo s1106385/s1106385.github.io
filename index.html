@@ -1,0 +1,12 @@
+<html>      
+	<head>
+		<script type="text/javascript">
+                    var userLang = navigator.language || navigator.userLanguage; 
+                    if (userLang === "zh-tw" || userLang === "zh-TW" || userLang === "zh-hk" || userLang === "zh-HK" || userLang === "zh-cn" || userLang === "zh-CN") {
+                        window.location.replace("./zh/index.html");
+                    } else {
+                        window.location.replace("./en/index.html");
+                    }
+                    </script>
+	</head>
+</html>

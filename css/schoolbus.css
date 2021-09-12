@@ -1,0 +1,185 @@
+* {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+html {
+    background-color: #EFEFF4;
+}
+
+html, body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 12px 0 12px 0;
+    background-color: rgba(249, 249, 249, 0.95);
+    box-shadow: 0px 1px 2px rgba(119, 119, 119, 0.4);
+    text-align: center;
+    color: #1F1F21;
+    font-size: 1.2em;
+    z-index: 100;
+}
+
+body {
+    padding-top: 54px;
+    font-size: 1.2em;
+    color: #8E8E93;
+}
+
+footer {
+    padding: 24px;
+    font-size: 0.5em;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+div.tocampus div.time,div.fromcampus div.time {
+    margin-top: -5px;
+    border: 0;
+    float: right;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #5856D6;
+    color: #FFFFFF;
+}
+
+ol {
+    list-style: none;
+    padding-left: 12px;
+}
+
+.back img {
+    vertical-align: sub;
+    padding-right: 4px;
+    height: 28px;
+    width: 18px;
+}
+
+.navbar {
+    width: 100%;
+    padding: 0;
+    border: 10px solid #EFEFF4;
+    border-radius: 5px;
+    border-spacing: 0;
+}
+
+td {
+    min-width: 90px;
+    border-top: 2px solid #5856D6;
+    border-bottom: 2px solid #5856D6;
+    text-align: center;
+    cursor: pointer;
+    padding: 4px;
+    background-color: #EFEFF4;
+    color: #5856D6;
+}
+
+#to {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;    
+    border-left: 2px solid #5856D6;
+    border-right: 1px solid #5856D6;
+}
+
+#from {
+    border-left: 1px solid #5856D6;
+    border-right: 1px solid #5856D6;
+}
+
+#location {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px solid #5856D6;
+    border-right: 2px solid #5856D6;
+}
+
+.navbar td.active {
+    background-color: #5856D6;
+    color: #EFEFF4;
+}
+
+div.container {
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.back {
+    text-decoration: none;
+    position: fixed;
+    left: 0;
+    z-index: 100;
+    cursor: pointer;
+    font-size: 0.9em;
+    float: left;
+    margin-left: 8px;
+    color: #007AFF;
+    font-weight: bold;
+}
+
+div.hide {
+    display: none;
+}
+
+div.routetitle {
+    margin: 12px 12px 0 12px;
+    padding: 10px;    
+    color: #F7F7F7;
+    border-radius: 5px;
+    background-color: #5856D6;
+}
+
+div.routeinfo div{
+    margin: 0 18px 0 18px;
+    color: #1F1F21;
+    background-color: #FFFFFF;
+    padding: 12px;
+}
+
+div.routeinfo div:not(:last-child){
+    border-bottom: 1px solid #8E8E93;
+}
+
+div.location div {
+    padding: 12px 12px 12px 0;
+    border-bottom: 1px solid #8E8E93;
+}
+
+div.location ul {
+    position: relative;
+    margin: 0;
+    margin-left: 52px;
+}
+
+li.district {
+    color: #1F1F21;
+    font-size: 1.2em;
+}
+
+li.fare {
+    min-width: 50px;
+    text-align: center;
+    background-color: #5856D6;
+    color: #FFFFFF;
+    padding: 5px;
+    border-radius: 5px;
+    float: right;
+}
+
+div.location img {
+    float: left;
+    padding: 5px 5px 5px 5px;
+    width: 40px;
+    height: 40px;
+}
+
+div.fromcampus .routeinfo div {
+    border-bottom: 0;
+}

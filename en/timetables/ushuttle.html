@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>U-Shuttle</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+        <link rel="stylesheet" href="../../css/timetable.css" type="text/css"/>
+        <script type="text/javascript">
+        	if (location.protocol != 'https:')
+			{
+				document.write("Redirecting to https:" + window.location.href.substring(window.location.protocol.length) + " ...")
+ 				location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+			}
+            if(document.documentElement.clientWidth <= 430) {        
+                document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=0.85');
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="../../script/main.js"></script>
+        <script type="text/javascript" src="../../script/dateParser-min.js"></script>
+        <script type="text/javascript" src="../../script/ushuttle-min.js"></script>        
+    </head>
+    <body>
+        <header><a href="../" class="back"><img src="../../icons/Back.png" alt="Back">Main</a>U-Shuttle</header>
+        <div class="navbar ushuttle"><nav class="active" id="shuttleeta">Upcoming Schedule</nav><nav id="shuttlettb">Timetable</nav></div>
+        <div class="container etashuttle">
+            <div class="nextbus ushuttle tocampus">To Tai Po Campus<div class="time">N/A</div></div>
+            <div class="eta ushuttle to"></div>
+            <div class="nextbus ushuttle fromcampus">To University<div class="time">N/A</div></div>
+            <div class="eta ushuttle from"></div>
+            <ol>
+                <li class="period">Timetable: N/A</li>
+                <li class="effDate">Effective from: N/A</li>
+                <li class="fare">Fare: N/A</li>                       
+            </ol>
+            <ol class="notes">
+                <li>Notes：</li>
+                <li>D: Shuttle will tentatively stop at the Entrance Plaza first and then go to Block D for drop-off. Passengers going to Block D need to pay fare at the Entrance Plaza first</li>
+                <li>1. Please pay bus fare by Octopus Cards before boarding or after alighting at Block A Entrance Plaza.</li>
+                <li>2. Please tap your staff/student card on the access control card reader installed on U-shuttle bus. You are not allowed to take the bus if you fail to do so.</li> 
+            </ol>
+            <footer></footer>
+        </div>
+        <div class="container timetable">
+            <div class="timetable ushuttle tocampus">To Tai Po Campus</div>
+            <table class="timetable ushuttle normal to">
+            </table>
+            <table class="timetable ushuttle sat to">
+            </table>
+            <table class="timetable ushuttle sun to">
+            </table>
+            <div class="timetable ushuttle fromcampus">To University</div>
+            <table class="timetable ushuttle normal from">
+            </table>
+            <table class="timetable ushuttle sat from">
+            </table>
+            <table class="timetable ushuttle sun from">
+            </table>
+            <ol>
+                <li class="effDate">Effective from: N/A</li>
+                <li class="fare">Fare: N/A</li>                       
+            </ol>
+            
+            <ol class="notes">
+                <li>Notes：</li>
+                <li>D: Shuttle will tentatively stop at the Entrance Plaza first and then go to Block D for drop-off. Passengers going to Block D need to pay fare at the Entrance Plaza first</li>
+                <li>1. Please pay bus fare by Octopus Cards before boarding or after alighting at Block A Entrance Plaza.</li>
+                <li>2. Please tap your staff/student card on the access control card reader installed on U-shuttle bus. You are not allowed to take the bus if you fail to do so.</li> 
+            </ol>
+            <footer></footer>
+        </div>        
+    </body>
+</html>

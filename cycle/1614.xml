@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cycle id="1614">
+	
+    <starteffdate>
+        <year>2016</year>
+        <month>11</month>
+        <date>14</date>
+    </starteffdate>
+	
+    <endeffdate>
+        <year>2016</year>
+        <month>11</month>
+        <date>30</date>
+    </endeffdate>
+    
+    <specialtrip>
+        <S1 date1="14/11-30/11">
+            <day>1,2,3,4,5</day>
+            <color>#ffc000</color>
+            <zh>11月14日起(星期一至五)之額外加班車</zh>
+            <en>Additional trips starting 14 Nov 2016 (Mondays - Fridays)</en>
+        </S1>
+        <S2 date1="14/11-21/11">
+            <day>1</day>
+            <color>#e6b8b7</color>
+            <zh>11月14日及21日(星期一)之額外加班車</zh>
+            <en>Additional trips on 14 &amp; Nov 2016 (Monday)</en>
+        </S2>
+        <S3 date1="14/11-23/11">
+            <day>1,2,3</day>
+            <color>#92d050</color>
+            <zh>11月14至16日 及 21至23日(星期一至三)之額外加班車</zh>
+            <en>Additional trips on 14-16 &amp; 21-23 Nov 2016 (Mondays to Wednesdays)</en>
+        </S3>
+        <S4 date1="14/11-22/11">
+            <day>1,2</day>
+            <color>#ffff00</color>
+            <zh>11月14日、15日、21日及22日(星期一至二)之額外加班車</zh>
+            <en>Additional trips on 14, 15, 21 &amp; 22 Nov 2016 (Mondays to Tuesdays)</en>
+        </S4>
+        <S5 date1="17/11-24/11">
+        	<day>4</day>
+            <color>#b7dee8</color>
+            <zh>11月17日及24日(星期四)之額外加班車</zh>
+            <en>Additional trips on 17 &amp; 24 Nov 2016 (Thursday)</en>
+        </S5>
+    </specialtrip>
+	
+    <fare>
+        <staff>6.3</staff>
+        <student>5</student>
+    </fare>
+    
+    <exceptmsg issatavailable="y">
+        <n>
+            <zh>星期六、星期日及公眾假期停止服務。請乘搭其他交通公具如九巴74K或專線小巴26號。</zh>
+            <en>Service is not available on Saturdays, Sundays &amp; Public Holidays. Please travel by other transportations like KMB 74K or GMB Route 26.</en>
+        </n>
+        <y>
+            <zh>星期日及公眾假期停止服務。請乘搭其他交通公具如九巴74K或專線小巴26號。</zh>
+            <en>Service is not available on Sundays &amp; Public Holidays. Please travel by other transportations like KMB 74K or GMB Route 26.</en>
+        </y>
+    </exceptmsg>
+    	
+    <timetable>
+        <tocampus>
+            <period from="07" to="07">
+                <minute>40</minute>
+                <minute>50</minute>
+                <minute special="S1">55</minute>
+            </period>
+            <period from="08" to="08">
+                <minute>00</minute>
+                <minute>05</minute>
+                <minute>10</minute>
+                <minute>15</minute>
+                <minute>20</minute>
+                <minute>30</minute>
+                <minute>40</minute>
+                <minute>50</minute>
+            </period>
+            <period from="09" to="09">
+                <minute>00</minute>
+                <minute>05</minute>
+                <minute>10</minute>
+                <minute>15</minute>
+                <minute>20</minute>
+                <minute special="S2">25</minute>
+                <minute>30</minute>
+                <minute>40</minute>
+                <minute>50</minute>
+                <minute special="S3">55</minute>
+            </period>
+            <period from="10" to="10">
+                <minute>00</minute>
+                <minute special="S1">05</minute>
+                <minute>10</minute>
+                <minute special="S1">15</minute>
+                <minute>20</minute>
+                <minute special="S4">25</minute>
+                <minute>30</minute>
+                <minute>40</minute>
+                <minute>50</minute>
+            </period>
+            <period from="11" to="12">
+                <minute>00</minute>
+                <minute>10</minute>
+                <minute>20</minute>
+                <minute>30</minute>
+                <minute>40</minute>
+                <minute>50</minute>
+            </period>
+            <period from="13" to="13">
+                <minute>00</minute>
+                <minute>10</minute>
+                <minute>20</minute>
+                <minute>30</minute>
+                <minute>45</minute>
+            </period>
+            <period from="14" to="14">
+                <minute>00</minute>                
+                <minute>15</minute>
+                <minute>30</minute>
+                <minute>45</minute>
+            </period>
+            <period from="15" to="17">
+                <minute>00</minute>
+                <minute>10</minute>
+                <minute>20</minute>
+                <minute>30</minute>
+                <minute>40</minute>
+                <minute>50</minute>
+            </period>
+            <period from="18" to="18">
+                <minute>00</minute>
+                <minute special="S1">05</minute>
+                <minute>10</minute>
+                <minute special="S1">15</minute>
+                <minute>20</minute>
+                <minute>30</minute>
+                <minute>40</minute>
+                <minute>50</minute>
+            </period>
+            <period from="19" to="19">
+                <minute>00</minute>
+                <minute>10</minute>
+                <minute>20</minute>
+                <minute>30</minute>
+                <minute>45</minute>
+            </period>
+            <period from="20" to="20">
+                <minute>00</minute>
+                <minute>15</minute>
+                <minute>30</minute>
+                <minute>45</minute>
+            </period>
+            <period from="21" to="21">
+                <minute>00</minute>
+                <minute>10</minute>
+                <minute>20</minute>
+                <minute>30</minute>
+                <minute>40</minute>
+                <minute>50</minute>
+            </period>
+            <period from="22" to="22">
+                <minute>00</minute>
+                <minute>15</minute>
+                <minute>30</minute>
+                <minute>45</minute>
+            </period>
+            <period from="23" to="23">
+                <minute>00</minute>
+            </period>
+        </tocampus>
+        		
+        <fromcampus>
+            <period from="08" to="08">
+                <minute>10</minute>
+                <minute>20</minute>
+                <minute>30</minute>
+                <minute>40</minute>
+                <minute>50</minute>
+            </period>
+            <period from="09" to="12">
+                <minute>00</minute>
+                <minute>10</minute>
+                <minute>20</minute>
+                <minute>30</minute>
+                <minute>40</minute>
+                <minute>50</minute>
+            </period>            
+            <period from="13" to="13">
+                <minute>00</minute>
+                <minute>10</minute>
+                <minute>20</minute>
+                <minute>30</minute>
+                <minute>45</minute>
+            </period>
+            <period from="14" to="14">
+                <minute>00</minute>
+                <minute>15</minute>
+                <minute>30</minute>
+                <minute>45</minute>
+            </period>
+            <period from="15" to="15">
+                <minute>00</minute>
+                <minute>10</minute>
+                <minute>20</minute>
+                <minute>30</minute>
+                <minute>40</minute>
+                <minute>50</minute>
+            </period>
+            <period from="16" to="16">
+                <minute>00</minute>
+                <minute>10</minute>
+                <minute>20</minute>
+                <minute>30</minute>
+                <minute special="S5">35</minute>
+                <minute>40</minute>
+                <minute special="S5">45</minute>
+                <minute>50</minute>
+            </period>
+            <period from="17" to="17">
+                <minute>00</minute>
+                <minute>10</minute>
+                <minute>20</minute>
+                <minute>25</minute>
+                <minute>30</minute>
+                <minute>35</minute>
+                <minute>40</minute>
+                <minute special="S1">45</minute>
+                <minute>50</minute>
+                <minute special="S1">55</minute>
+            </period>
+            <period from="18" to="18">
+                <minute>00</minute>
+                <minute>10</minute>
+                <minute>20</minute>
+                <minute>25</minute>
+                <minute>30</minute>
+                <minute>35</minute>
+                <minute>40</minute>
+                <minute special="S1">45</minute>
+                <minute>50</minute>
+            </period>
+            <period from="19" to="19">
+                <minute>00</minute>
+                <minute>10</minute>
+                <minute>20</minute>
+                <minute>30</minute>
+                <minute>45</minute>
+            </period>
+            <period from="20" to="20">
+                <minute>00</minute>
+                <minute>15</minute>
+                <minute>30</minute>                
+                <minute>45</minute>
+            </period>
+            <period from="21" to="21">
+                <minute>00</minute>
+                <minute>10</minute>
+                <minute>15</minute>
+                <minute>20</minute>
+                <minute>25</minute>
+                <minute>30</minute>
+                <minute special="S2">35</minute>
+                <minute>40</minute>
+                <minute>50</minute>
+            </period>
+            <period from="22" to="22">
+                <minute>00</minute>
+                <minute>15</minute>
+            </period>
+        </fromcampus>	
+    </timetable>
+    
+    <timetablesat>
+        <tocampus>
+            <period from="08" to="09">                
+                <minute>00</minute>
+                <minute>10</minute>
+                <minute>20</minute>
+                <minute>30</minute>
+                <minute>40</minute>
+                <minute>50</minute>
+            </period>
+            <period from="10" to="11">
+                <minute>00</minute>
+                <minute>15</minute>
+                <minute>30</minute>
+                <minute>45</minute>
+            </period>
+            <period from="12" to="13">
+                <minute>00</minute>
+                <minute>10</minute>
+                <minute>20</minute>
+                <minute>30</minute>
+                <minute>40</minute>
+                <minute>50</minute>
+            </period>
+            <period from="14" to="15">
+                <minute>00</minute>
+                <minute>15</minute>
+                <minute>30</minute>
+                <minute>45</minute>
+            </period>
+            <period from="16" to="18">
+                <minute>00</minute>
+                <minute>10</minute>
+                <minute>20</minute>
+                <minute>30</minute>
+                <minute>40</minute>
+                <minute>50</minute>
+            </period>
+            <period from="19" to="19">
+                <minute>00</minute>
+            </period>            
+        </tocampus>
+        		
+        <fromcampus>
+            <period from="08" to="08">
+                <minute>10</minute>
+                <minute>20</minute>
+                <minute>30</minute>
+                <minute>40</minute>
+                <minute>50</minute>
+            </period>
+            <period from="09" to="09">
+                <minute>00</minute>
+                <minute>10</minute>
+                <minute>20</minute>
+                <minute>30</minute>
+                <minute>40</minute>
+                <minute>50</minute>
+            </period>
+            <period from="10" to="11">
+                <minute>00</minute>
+                <minute>15</minute>
+                <minute>30</minute>
+                <minute>45</minute>
+            </period>
+            <period from="12" to="13">
+                <minute>00</minute>
+                <minute>10</minute>
+                <minute>20</minute>
+                <minute>30</minute>
+                <minute>40</minute>
+                <minute>50</minute>
+            </period>
+            <period from="14" to="15">
+                <minute>00</minute>
+                <minute>15</minute>
+                <minute>30</minute>
+                <minute>45</minute>
+            </period>
+            <period from="16" to="18">
+                <minute>00</minute>
+                <minute>10</minute>
+                <minute>20</minute>
+                <minute>30</minute>
+                <minute>40</minute>
+                <minute>50</minute>
+            </period>
+            <period from="19" to="19">
+                <minute>00</minute>
+                <minute>10</minute>
+                <minute>20</minute>
+            </period>            
+        </fromcampus>        
+    </timetablesat>	
+	
+</cycle>

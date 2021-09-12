@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>港鐵大學站穿梭巴士</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+        <link rel="stylesheet" href="../../css/timetable.css" type="text/css"/>
+        <script type="text/javascript">
+            if (location.protocol != 'https:')
+            {
+                document.write("重新導向至 https:" + window.location.href.substring(window.location.protocol.length) + " ...")
+                location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+            }
+            if(document.documentElement.clientWidth <= 430) {        
+                document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=0.85');
+            }
+        </script>  
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="../../script/main.js"></script>
+        <script type="text/javascript" src="../../script/dateParser-min.js"></script>
+        <script type="text/javascript" src="../../script/ushuttle-min.js"></script>          
+    </head>
+    <body>
+        <header><a href="../" class="back"><img src="../../icons/Back.png" alt="Back">主頁</a>港鐵大學站穿梭巴士</header>
+        <div class="navbar ushuttle"><nav class="active" id="shuttleeta">班次預報</nav><nav id="shuttlettb">時間表</nav></div>
+        <div class="container etashuttle">
+            <div class="nextbus ushuttle tocampus">往 大埔校園<div class="time">N/A</div></div>
+            <div class="eta ushuttle to"></div>
+            <div class="nextbus ushuttle fromcampus">往 港鐵大學站<div class="time">N/A</div></div>
+            <div class="eta ushuttle from"></div>
+            <ol> 
+                <li class="period">時間表：N/A</li>
+                <li class="effDate">資料有效期：N/A</li>
+                <li class="fare">車資：N/A</li>                       
+            </ol>
+            <ol class="notes">
+                <li>備註：</li>
+                <li>D: 先停入口廣場再接載乘客前往D座。前往D座之乘客可於入口廣場處下車付款後再上車前往D座</li>
+                <li>1. 請在大埔校園入口廣場以八達通卡在上車前或落車後付車費</li>
+                <li>2. 請拍職員證/學生證於車上的認證機，否則將會被拒登車</li> 
+            </ol>    
+            <footer></footer>
+        </div>
+        <div class="container timetable">
+            <div class="timetable ushuttle tocampus">往 大埔校園</div>
+            <table class="timetable ushuttle normal to">
+            </table>
+            <table class="timetable ushuttle sat to">
+            </table>
+            <table class="timetable ushuttle sun to">
+            </table>
+            <div class="timetable ushuttle fromcampus">往 港鐵大學站</div>
+            <table class="timetable ushuttle normal from">
+            </table>
+            <table class="timetable ushuttle sat from">
+            </table>
+            <table class="timetable ushuttle sun from">
+            </table>
+            <ol> 
+                <li class="effDate">資料有效期：N/A</li>
+                <li class="fare">車資：N/A</li>                       
+            </ol>               
+            
+            <ol class="notes">
+                <li>備註：</li>
+                <li>D: 先停入口廣場再接載乘客前往D座。前往D座之乘客可於入口廣場處下車付款後再上車前往D座</li>
+                <li>1. 請在大埔校園入口廣場以八達通卡在上車前或落車後付車費</li>
+                <li>2. 請拍職員證/學生證於車上的認證機，否則將會被拒登車</li>
+            </ol>    
+            <footer></footer>
+        </div>
+    </body>
+</html>

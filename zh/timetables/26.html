@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>專線小巴26號</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+        <link rel="stylesheet" href="../../css/timetable.css" type="text/css"/>
+        <script type="text/javascript">
+            if (location.protocol != 'https:')
+            {
+                document.write("重新導向至 https:" + window.location.href.substring(window.location.protocol.length) + " ...")
+                location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+            }
+            if(document.documentElement.clientWidth <= 430) {        
+                document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=0.85');
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="../../script/main.js"></script>
+        <script type="text/javascript" src="../../script/dateParser-min.js"></script>
+        <script type="text/javascript" src="../../script/26-min.js"></script>        
+    </head>
+    <body>
+        <header><a href="../" class="back"><img src="../../icons/Back.png" alt="Back">主頁</a>專線小巴26/26A號</header>
+        <div class="navbar gmb26"><nav class="active" id="route26">26</nav><nav id="route26a">26A</nav></div>
+        <div class="container route26">
+            <div class="nextbus gmb26 fromcampus">香港教育學院 開出<div class="time">N/A</div></div>
+            <table class="timetable gmb26 from">
+                <tr><th>時</th><th colspan="10">分</th></tr>
+            </table>
+            <div class="nextbus gmb26 tocampus">馬鞍山海栢花園 開出<div class="time">N/A</div></div>
+            <table class="timetable gmb26 to">
+                <tr><th>時</th><th colspan="10">分</th></tr>
+            </table>
+            <div class="nextbus gmb26 ttb">時間表</div>
+            <table class="timetable ttb">
+                <tr><th>香港教育學院 開出</th><th>馬鞍山海栢花園 開出</th><th>班次 ( 分鐘 )</th></tr>
+                <tr><td>06:40 - 23:36</td><td>06:00 - 23:00</td><td>7 - 9</td></tr>
+            </table>
+            <div class="nextbus gmb26 mainroad">路線途經的主要街道及地點</div>
+            <table class="timetable mainroad">
+                <tr><th>香港教育學院</th><th><div class="stop"></div></th><th><div class="terminalup"></div></th><td>香港教育學院</td></tr>
+                <tr><td>大昌街（大埔工業邨）</td><th><div class="stop"></div></th><th><div class="stop"></div></th><td>大昌街（大埔工業邨）</td></tr>
+                <tr><td>大埔太和路（大埔中心）</td><th><div class="stop"></div></th><th><div class="stop"></div></th><td>大埔太和路（大埔中心）</td></tr>
+                <tr><td>廣福道（大埔墟）</td><th><div class="stop"></div></th><th><div class="stop"></div></th><td>廣福道（大埔墟）</td></tr>
+                <tr><td>吐露港公路</td><th><div class="stop"></div></th><th><div class="stop"></div></th><td>吐露港公路</td></tr>
+                <tr><td>馬鞍山路</td><th><div class="stop"></div></th><th><div class="stop"></div></th><td>馬鞍山路</td></tr>
+                <tr><td>恒康街（耀安邨）</td><th><div class="stop"></div></th><th><div class="stop"></div></th><td>恒康街（耀安邨）</td></tr>
+                <tr><td>海栢花園（馬鞍山站）</td><th><div class="terminaldown"></div></th><th><div class="stop"></div></th><th>海栢花園（馬鞍山站）</th></tr>
+            </table>
+            <div class="nextbus gmb26 faretb">車資表</div>
+            <table class="timetable faretb">
+                <tr><th>全程</th><td>$13.80</td></tr>
+                <tr><th>大埔公路(元洲仔段) - 香港教育學院</th><td>$6.40</td></tr>
+                <tr><th>恒康街往海栢花園</th><td>$3.20</td></tr>
+            </table>
+            <ol> 
+                <li>時間表：星期一至星期日</li>                   
+            </ol>
+            <footer></footer>
+        </div>
+        <div class="container route26a">
+            <div class="nextbus gmb26a fromcampus">香港教育學院 開出<div class="time">N/A</div></div>
+            <table class="timetable gmb26a from">
+                <tr><th>時</th><th colspan="10">分</th></tr>
+            </table>
+            <div class="nextbus gmb26a ttb">時間表</div>
+            <table class="timetable ttb">
+                <tr><th>香港教育學院 開出</th><th>班次 ( 分鐘 )</th></tr>
+                <tr><td>07:30 - 09:30</td><td>15</td></tr>
+                <tr><td>17:30 - 20:30</td><td>15</td></tr>
+            </table>
+            <div class="nextbus gmb26a mainroad">路線（循環線）</div>
+            <table class="timetable mainroad">
+                <tr><th><div class="stop"></div></th><th>香港教育學院</th><th><div class="terminalup"></div></th></tr>
+                <tr><th><div class="stop"></div></th><td>露屏路</td><th><div class="stop"></div></th></tr>
+                <tr><th><div class="stop"></div></th><td>露輝路</td><th><div class="stop"></div></th></tr>
+                <tr><th><div class="stop"></div></th><td>汀角路</td><th><div class="stop"></div></th></tr>
+                <tr><th><div class="stop"></div></th><td>大貴街</td><th><div class="stop"></div></th></tr>
+                <tr><th><div class="stop"></div></th><td>大昌街（大埔工業邨）</td><th><div class="stop"></div></th></tr>
+                <tr><th><div class="stop"></div></th><td>大發街</td><th><div class="stop"></div></th></tr>
+                <tr><th><div class="stop"></div></th><td>汀角路</td><th><div class="stop"></div></th></tr>
+                <tr><th><div class="stop"></div></th><td>南運路</td><th><div class="stop"></div></th></tr>
+                <tr><th><div class="stop"></div></th><td>大埔太和路（大埔中心）</td><th><div class="stop"></div></th></tr>
+                <tr><th><div class="stop"></div></th><td>寶鄉橋</td><th><div class="stop"></div></th></tr>
+                <tr><th><div class="stop"></div></th><td>寶鄉街</td><th><div class="stop"></div></th></tr>
+                <tr><th><div class="stop"></div></th><td>廣福道（大埔墟）</td><th><div class="stop"></div></th></tr>
+                <tr><th><div class="stop"></div></th><td>大埔公路-元洲仔段</td><th><div class="stop"></div></th></tr>
+            <tr><th><div class="terminaldown"></div></th><td>迴旋處</td><th><div class="stop"></div></th></tr>
+            </table>
+            <ol> 
+                <li>時間表：星期一至星期五 (公眾假期除外)</li>
+                <li>車資：$6.40</li>
+            </ol>
+            <footer></footer>
+        </div>        
+    </body>
+</html>

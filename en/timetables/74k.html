@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>KMB 74K</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+        <link rel="stylesheet" href="../../css/kmb.css" type="text/css"/>
+        <script type="text/javascript">
+            if (location.protocol != 'https:')
+            {
+                document.write("Redirecting to https:" + window.location.href.substring(window.location.protocol.length) + " ...")
+                location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+            }
+            if(document.documentElement.clientWidth <= 430) {        
+                document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=0.85');
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="../../script/main.js"></script>
+        <script type="text/javascript" src="../../script/dateParser-min.js"></script>
+        <script type="text/javascript" src="../../script/kmb-min.js"></script>
+        <script type="text/javascript" src="../../script/bus-eta-min.js"></script>   
+    </head>
+    <body>        
+        <header><a href="../" class="back"><img src="../../icons/Back.png" alt="Back">Main</a>KMB 74K</header>
+        <table class="navbar kmb">
+            <tr><td class="active" id="eta">ETA</td><td id="news">Latest News</td><td id="timetable">Timetable</td></tr>
+        </table> 
+        <div class="container buseta">
+            <div class="etablock" id="tpmmtr">
+                <div class="busstop">Tai Po Market Station<div>N/A</div></div>
+                <div class="time"></div>
+            </div>
+            <div class="etablock" id="tpcentral">
+                <div class="busstop">Tai Po Central<div>N/A</div></div>
+                <div class="time"></div>
+            </div>            
+            <div class="etablock" id="eduhk">
+                <div class="busstop">EdUHK<div>N/A</div></div>
+                <div class="time"></div>
+            </div>
+                 
+            <div class="fulleta"><a href="./74k_ETA.html">74K ETA for Each Bus Stop<img src="../../icons/forward.png" alt="forward"></a></div>
+            <ol>
+                <li>Note:</li>
+                <li>ETA may fluctuate as a result of traffic conditions. You are therefore advised to arrive at the bus stop in advance.</li>
+                <li>"Scheduled": departure time may be adjusted subject to traffic conditions or operational needs</li>
+            </ol> 
+        </div>
+        <div class="container realtimenews"></div>
+        <div class="container timetable">
+            <table class="ttb">                            
+            </table>
+            <ol>            
+                <li id="period">Timetable: N/A</li>
+                <li>Fare: $4.9</li>                       
+            </ol>
+            <ol>
+                <li>Note:</li>
+                <li>Departures from Tai Po Market Railway Station before 12:00: Observing the stop at HKIEd before operating via Sam Mun Tsai.</li>
+                <li>Departures from Tai Po Market Railway Station from 12:00: Observing the stop at HKIEd after operating via Sam Mun Tsai.</li>
+            </ol> 
+            <footer></footer>
+        </div>
+    </body>
+</html>

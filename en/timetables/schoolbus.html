@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>School Bus</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+        <link rel="stylesheet" href="../../css/schoolbus.css" type="text/css"/>
+        <script type="text/javascript">
+            if (location.protocol != 'https:')
+            {
+                document.write("Redirecting to https:" + window.location.href.substring(window.location.protocol.length) + " ...")
+                location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+            }
+            if(document.documentElement.clientWidth <= 430) {        
+                document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=0.85');
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>        
+        <script type="text/javascript" src="../../script/schoolbus.js"></script>        
+    </head>
+    <body>        
+        <header><a href="../" class="back"><img src="../../icons/Back.png" alt="Back">Main</a>School Bus</header>
+        <table class="navbar">
+            <tr><td class="active" id="to">Dept. To Campus</td><td id="from">Dept. From Campus</td><td id="location">Boarding Location</td></tr>
+        </table>
+        <div class="container tocampus">
+            <div class="routetitle">Route 1</div>
+            <div class="routeinfo">
+                <div>
+                    <div class="time">07:00</div>Tuen Mun            
+                </div>
+                <div>
+                    <div class="time">07:13</div>Kingswood Ginza
+                </div>
+                <div>
+                    <div class="time">07:25</div>Yuen Long
+                </div>
+                <div>
+                    <div class="time">07:40</div>Sheung Shui
+                </div>
+            </div>          
+            <div class="routetitle">Route 2#</div>
+            <div class="routeinfo">
+                <div>
+                    <div class="time">18:00</div>Sheung Shui
+                </div>
+            </div>
+            <ol>            
+                <li>Timetable: Monday to Friday (except Saturdays, Sundays and public holidays)</li>
+                <li>Effective from 1 September 2021 to 30 June 2022</li>
+            </ol>
+            <ol>
+                <li>Note:</li>
+                <li>Buses will depart according to schedule. In case of traffic congestion, buses may arrive at the boarding places behind schedule. If so, please keep waiting.</li>
+                <li>Boarding time for intermediate stops is for reference only, please allow sufficient waiting time.</li>
+                <li>#Route 2 Operates in Peak Months: Sept-Nov 2020 &amp; Jan-Mar 2021.</li>
+            </ol>
+            <footer></footer>
+        </div>        
+        <div class="container fromcampus">
+            <div class="routetitle">Route</div>
+            <div class="routeinfo">
+                <div>Sheung Shui > Yuen Long > Tin Shui Wai Tin Tsz Light Rail Stop > Tuen Mun Central</div>
+                <div>
+                    <div class="time">17:40</div>Outbound Departure Time
+                </div>
+            </div>
+
+            <ol>            
+                <li>Timetable: Monday to Friday (except Saturdays, Sundays and public holidays)</li>
+                <li>Effective from 1 September 2021 to 30 June 2022</li>
+            </ol>
+            <footer></footer>
+        </div>
+        <div class="container location">
+            <div><a href="../../icons/Tuen_Mun.png" target="_blank"><img src="../../icons/Tuen_Mun_icon.jpg" alt="Tuen Mun"></a>
+                <ul>
+                    <li class="fare">$26.7</li>
+                    <li class="district">Tuen Mun</li>
+                    <li>Tuen Mun Town Plaza I, Tuen Fat Road</li>                    
+                </ul>
+            </div>
+            <div><a href="../../icons/Tin_Shui_Wai.png" target="_blank"><img src="../../icons/Tin_Shui_Wai_icon.jpg" alt="Tin Shui Wai"></a>
+                <ul>
+                    <li class="fare">$26.7</li>
+                    <li class="district">Tin Shui Wai</li>
+                    <li>Kingswood Ginza Plaza, Kingswood Villas, Tin Shing Road, Tin Shui Wai</li>                    
+                </ul>
+            </div>
+            <div><a href="../../icons/Yuen_Long.png" target="_blank"><img src="../../icons/Yuen_Long_icon.jpg" alt="Yuen Long"></a>
+                <ul>
+                    <li class="fare">$26.7</li>
+                    <li class="district">Yuen Long</li>
+                    <li>On Shun Street, under the footbridge, near Yuen Long Lutheran College</li>
+                </ul>
+            </div>
+            <div><a href="../../icons/Sheung_Shui.png" target="_blank"><img src="../../icons/Sheung_Shui_icon.jpg" alt="Sheung Shui"></a>
+                <ul>
+                    <li class="fare">$12.3</li>
+                    <li class="district">Sheung Shui</li>
+                    <li>Lay-by on San Wan Road outside MTR Sheung Shui Station opposite to Sheung Shui Centre</li>                    
+                </ul>
+            </div>
+            <ol>            
+                <li>Effective from 1 September 2021 to 30 June 2022</li>                     
+            </ol>
+            <footer></footer>
+        </div> 
+    </body>
+</html>

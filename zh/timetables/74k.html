@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>九巴74K</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+        <link rel="stylesheet" href="../../css/kmb.css" type="text/css"/>
+        <script type="text/javascript">
+            if (location.protocol != 'https:')
+            {
+                document.write("重新導向至 https:" + window.location.href.substring(window.location.protocol.length) + " ...")
+                location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+            }
+            if(document.documentElement.clientWidth <= 430) {        
+                document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=0.85');
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="../../script/main.js"></script>
+        <script type="text/javascript" src="../../script/dateParser-min.js"></script>
+        <script type="text/javascript" src="../../script/kmb-min.js"></script>
+        <script type="text/javascript" src="../../script/bus-eta-min.js"></script>
+    </head>
+    <body>        
+        <header><a href="../" class="back"><img src="../../icons/Back.png" alt="Back">主頁</a>九巴74K</header>
+        <table class="navbar kmb">
+            <tr><td class="active" id="eta">到站時間預報</td><td id="news">最新消息</td><td id="timetable">時間表</td></tr>
+        </table> 
+        <div class="container buseta">
+            <div class="etablock" id="tpmmtr">
+                <div class="busstop">大埔墟鐵路站<div>N/A</div></div>
+                <div class="time"></div>
+            </div>
+            <div class="etablock" id="tpcentral">
+                <div class="busstop">大埔中心<div>N/A</div></div>
+                <div class="time"></div>
+            </div>            
+            <div class="etablock" id="eduhk">
+                <div class="busstop">香港教育大學<div>N/A</div></div>
+                <div class="time"></div>
+            </div>
+                      
+            <div class="fulleta"><a href="./74k_ETA.html">74K各站預計到達時間<img src="../../icons/forward.png" alt="forward"></a></div>
+            <ol>
+                <li>備註：</li>
+                <li>「預計到達時間」會因實際交通狀況而有所改變，請提早到達巴士站。</li>
+                <li>「預定班次」開出時間會因應交通情況或實際需要而作適當調整。</li>
+            </ol> 
+        </div>
+        <div class="container realtimenews"></div>
+        <div class="container timetable">
+            <table class="ttb">                            
+            </table>
+            <ol>            
+                <li id="period">時間表：N/A</li>
+                <li>車資：$4.9</li>                       
+            </ol>
+            <ol>
+                <li>備註：</li>
+                <li>中午12:00前由大埔墟鐵路站開出之班次：先停香港教育學院站，後經三門仔；</li>
+                <li>中午12:00起由大埔墟鐵路站開出之班次：先經三門仔，後停香港教育學院站。</li>
+            </ol>  
+            <footer></footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,147 @@
+{
+    "bus_arr": [{
+            "STOP_NAME_CHI": "\u5927\u57d4\u589f\u9435\u8def\u7ad9",
+            "STOP_NAME_ENG": "TAI PO MARKET RAILWAY STATION",
+            "STOP_CODE": "TA10T14000"
+        }, {
+            "STOP_NAME_CHI": "\u5927\u57d4\u589f\u8857\u5e02",
+            "STOP_NAME_ENG": "TAI PO HUI MARKET",
+            "STOP_CODE": "WA09N10500"
+        }, {
+            "STOP_NAME_CHI": "\u5927\u57d4\u5bf6\u9109\u8857",
+            "STOP_NAME_ENG": "PO HEUNG STREET TAI PO",
+            "STOP_CODE": "PO02N10000"
+        }, {
+            "STOP_NAME_CHI": "\u5927\u57d4\u5bf6\u9109\u6a4b",
+            "STOP_NAME_ENG": "PO HEUNG BRIDGE TAI PO",
+            "STOP_CODE": "PO02N11500"
+        }, {
+            "STOP_NAME_CHI": "\u5927\u57d4\u4e2d\u5fc3\u7e3d\u7ad9",
+            "STOP_NAME_ENG": "TAI PO CENTRAL BUS TERMINUS",
+            "STOP_CODE": "TA07T13500"
+        }, {
+            "STOP_NAME_CHI": "\u6021\u96c5\u82d1",
+            "STOP_NAME_ENG": "YEE NGA COURT",
+            "STOP_CODE": "TI08E12000"
+        }, {
+            "STOP_NAME_CHI": "\u9b5a\u89d2",
+            "STOP_NAME_ENG": "YUE KOK",
+            "STOP_CODE": "TI08E12500"
+        }, {
+            "STOP_NAME_CHI": "\u9cf3\u5712\u8def",
+            "STOP_NAME_ENG": "FUNG YUEN ROAD",
+            "STOP_CODE": "TI08E13000"
+        }, {
+            "STOP_NAME_CHI": "\u4e0b\u5751",
+            "STOP_NAME_ENG": "HA HANG",
+            "STOP_CODE": "TI08E13500"
+        }, {
+            "STOP_NAME_CHI": "\u5927\u8cb4\u8857",
+            "STOP_NAME_ENG": "DAI KWAI STREET",
+            "STOP_CODE": "TI08E14000"
+        }, {
+            "STOP_NAME_CHI": "\u5927\u57d4\u6771\u6d88\u9632\u5c40",
+            "STOP_NAME_ENG": "TAI PO EAST FIRE STATION",
+            "STOP_CODE": "TI08E14250"
+        }, {
+            "STOP_NAME_CHI": "\u9999\u6e2f\u6559\u80b2\u5927\u5b78",
+            "STOP_NAME_ENG": "THE EDUCATION UNIVERSITY OF HK",
+            "STOP_CODE": "HO04T10000"
+        }, {
+            "STOP_NAME_CHI": "\u5927\u57d4\u9732\u8f1d\u8def",
+            "STOP_NAME_ENG": "LO FAI ROAD TAI PO",
+            "STOP_CODE": "TI08E14500"
+        }, {
+            "STOP_NAME_CHI": "\u96c5\u666f\u82b1\u5712",
+            "STOP_NAME_ENG": "FORTUNE GARDEN",
+            "STOP_CODE": "TI08E15000"
+        }, {
+            "STOP_NAME_CHI": "\u4e09\u9580\u4ed4\u6f01\u5b89\u8857",
+            "STOP_NAME_ENG": "YU ON STREET SAM MUN TSAI",
+            "STOP_CODE": "SA07E10000"
+        }, {
+            "STOP_NAME_CHI": "\u8239\u7063\u907f\u98a8\u5858",
+            "STOP_NAME_ENG": "SHUEN WAN TYPHOON SHELTER",
+            "STOP_CODE": "SA07E10500"
+        }, {
+            "STOP_NAME_CHI": "\u6c99\u6b04\u8def",
+            "STOP_NAME_ENG": "SHA LAN ROAD",
+            "STOP_CODE": "SA07E11000"
+        }, {
+            "STOP_NAME_CHI": "\u4e09\u9580\u4ed4",
+            "STOP_NAME_ENG": "SAM MUN TSAI",
+            "STOP_CODE": "SA07W09500"
+        }, {
+            "STOP_NAME_CHI": "\u6c99\u6b04\u8def",
+            "STOP_NAME_ENG": "SHA LAN ROAD",
+            "STOP_CODE": "SA07W09750"
+        }, {
+            "STOP_NAME_CHI": "\u8239\u7063\u907f\u98a8\u5858",
+            "STOP_NAME_ENG": "SHUEN WAN TYPHOON SHELTER",
+            "STOP_CODE": "SA07W10000"
+        }, {
+            "STOP_NAME_CHI": "\u4e09\u9580\u4ed4\u6f01\u5b89\u8857",
+            "STOP_NAME_ENG": "YU ON STREET SAM MUN TSAI",
+            "STOP_CODE": "SA07W10500"
+        }, {
+            "STOP_NAME_CHI": "\u96c5\u666f\u82b1\u5712",
+            "STOP_NAME_ENG": "FORTUNE GARDEN",
+            "STOP_CODE": "TI08W16000"
+        }, {
+            "STOP_NAME_CHI": "\u5927\u57d4\u9732\u8f1d\u8def",
+            "STOP_NAME_ENG": "LO FAI ROAD TAI PO",
+            "STOP_CODE": "TI08W17000"
+        }, {
+            "STOP_NAME_CHI": "\u5927\u57d4\u5de5\u696d\u90a8",
+            "STOP_NAME_ENG": "TAI PO INDUSTRIAL ESTATE",
+            "STOP_CODE": "TI08W17500"
+        }, {
+            "STOP_NAME_CHI": "\u4e0b\u5751",
+            "STOP_NAME_ENG": "HA HANG",
+            "STOP_CODE": "TI08W18000"
+        }, {
+            "STOP_NAME_CHI": "\u5927\u57d4\u5927\u767c\u8857",
+            "STOP_NAME_ENG": "DAI FAT STREET TAI PO",
+            "STOP_CODE": "TI08W18500"
+        }, {
+            "STOP_NAME_CHI": "\u9b5a\u89d2",
+            "STOP_NAME_ENG": "YUE KOK",
+            "STOP_CODE": "TI08W19000"
+        }, {
+            "STOP_NAME_CHI": "\u6551\u6069\u66f8\u9662",
+            "STOP_NAME_ENG": "KAU YAN COLLEGE",
+            "STOP_CODE": "TI08W19500"
+        }, {
+            "STOP_NAME_CHI": "\u6021\u96c5\u82d1",
+            "STOP_NAME_ENG": "YEE NGA COURT",
+            "STOP_CODE": "TI08W20000"
+        }, {
+            "STOP_NAME_CHI": "\u5927\u57d4\u4e2d\u5fc3\u7e3d\u7ad9",
+            "STOP_NAME_ENG": "TAI PO CENTRAL BUS TERMINUS",
+            "STOP_CODE": "TA07T12500"
+        }, {
+            "STOP_NAME_CHI": "\u5927\u57d4\u5b89\u7965\u8def",
+            "STOP_NAME_ENG": "ON CHEUNG ROAD TAI PO",
+            "STOP_CODE": "ON01S10250"
+        }, {
+            "STOP_NAME_CHI": "\u5927\u57d4\u5ee3\u798f\u9053",
+            "STOP_NAME_ENG": "KWONG FUK ROAD TAI PO",
+            "STOP_CODE": "KW11E10000"
+        }, {
+            "STOP_NAME_CHI": "\u5927\u57d4\u904b\u982d\u8857",
+            "STOP_NAME_ENG": "WAN TAU STREET TAI PO",
+            "STOP_CODE": "WA09S10000"
+        }, {
+            "STOP_NAME_CHI": "\u5927\u57d4\u589f",
+            "STOP_NAME_ENG": "TAI PO MARKET",
+            "STOP_CODE": "WA09S10500"
+        }, {
+            "STOP_NAME_CHI": "\u5927\u57d4\u589f\u9435\u8def\u7ad9",
+            "STOP_NAME_ENG": "TAI PO MARKET RAILWAY STATION",
+            "STOP_CODE": "TA10T12500"
+        }, {
+            "STOP_NAME_CHI": "\u5927\u57d4\u589f\u9435\u8def\u7ad9",
+            "STOP_NAME_ENG": "TAI PO MARKET RAILWAY STATION",
+            "STOP_CODE": "TA10T14000"
+        }]
+}

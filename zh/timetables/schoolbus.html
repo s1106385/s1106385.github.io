@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>校車</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+        <link rel="stylesheet" href="../../css/schoolbus.css" type="text/css"/>
+        <script type="text/javascript">
+            if (location.protocol != 'https:')
+            {
+                document.write("重新導向至 https:" + window.location.href.substring(window.location.protocol.length) + " ...")
+                location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+            }
+            if(document.documentElement.clientWidth <= 430) {        
+                document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=0.85');
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="../../script/schoolbus.js"></script>        
+    </head>
+    <body>        
+        <header><a href="../" class="back"><img src="../../icons/Back.png" alt="Back">主頁</a>校車</header>
+        <table class="navbar">
+            <tr><td class="active" id="to">回校班次</td><td id="from">離校班次</td><td id="location">上車地點</td></tr>
+        </table>
+        <div class="container tocampus">   
+            <div class="routetitle">路線1</div>
+            <div class="routeinfo">
+                <div>
+                    <div class="time">07:00</div>屯門            
+                </div>
+                <div>
+                    <div class="time">07:13</div>嘉湖銀座
+                </div>
+                <div>
+                    <div class="time">07:25</div>元朗
+                </div>
+                <div>
+                    <div class="time">07:40</div>上水
+                </div>
+            </div>
+            <div class="routetitle">路線2#</div>
+            <div class="routeinfo">
+                <div>
+                    <div class="time">18:00</div>上水
+                </div>
+            </div>                      
+            <ol>            
+                <li>時間表：星期一至星期五，星期六、日及公眾假期除外</li>
+                <li>資料有效期：2021年9月1日 至 2022年6月30日</li>
+            </ol>
+            <ol>
+                <li>備註：</li>
+                <li>請依指定時間登車，逾時不候。如遇交通擠塞，個別校車或會誤點，敬請稍候。</li>
+                <li>#中途站登車時間只供參考，請提早候車。</li>
+                <li>#路線2於繁忙月份(2021年9-11月 及 2022年1-3月)營運。</li>
+            </ol>
+            <footer></footer>
+        </div>        
+        <div class="container fromcampus">
+            <div class="routetitle">路線</div>
+            <div class="routeinfo">
+                <div>上水 > 元朗 > 天水圍天慈輕鐵站 > 屯門市中心</div>
+                <div>
+                    <div class="time">17:40</div>離校開出時間
+                </div>
+            </div>
+            
+            <ol>            
+                <li>時間表：星期一至星期五，星期六、日及公眾假期除外</li>
+                <li>資料有效期：2021年9月1日 至 2022年6月30日</li>
+            </ol>
+            <footer></footer>
+        </div>
+        <div class="container location">
+            <div><a href="../../icons/Tuen_Mun.png" target="_blank"><img src="../../icons/Tuen_Mun_icon.jpg" alt="Tuen Mun"></a>
+                <ul>
+                    <li class="fare">$26.7</li>
+                    <li class="district">屯門</li>
+                    <li>屯發路屯門市廣場1期</li>                    
+                </ul>
+            </div>
+            <div><a href="../../icons/Tin_Shui_Wai.png" target="_blank"><img src="../../icons/Tin_Shui_Wai_icon.jpg" alt="Tin Shui Wai"></a>
+                <ul>
+                    <li class="fare">$26.7</li>
+                    <li class="district">天水圍</li>
+                    <li>天水圍天城路嘉湖山莊銀座廣場</li>                    
+                </ul>
+            </div>
+            <div><a href="../../icons/Yuen_Long.png" target="_blank"><img src="../../icons/Yuen_Long_icon.jpg" alt="Yuen Long"></a>
+                <ul>
+                    <li class="fare">$26.7</li>
+                    <li class="district">元朗</li>
+                    <li>元朗安信街元朗信義書院側行人天橋底</li>
+                </ul>
+            </div>
+            <div><a href="../../icons/Sheung_Shui.png" target="_blank"><img src="../../icons/Sheung_Shui_icon.jpg" alt="Sheung Shui"></a>
+                <ul>
+                    <li class="fare">$12.3</li>
+                    <li class="district">上水</li>
+                    <li>上水港鐵站新運路上水中心對面上落客區</li>                    
+                </ul>
+            </div>
+            <ol>            
+                <li>資料有效期：2021年9月1日 至 2022年6月30日</li>                     
+            </ol>
+            <footer></footer>
+        </div> 
+    </body>
+</html>

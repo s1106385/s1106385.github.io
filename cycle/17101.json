@@ -1,0 +1,489 @@
+{
+	"cycle" : {
+		"id" : "17101",
+		"info" : {
+			"issatavailable" : 1,
+			"effdate" : {
+				"start" : {
+					"year" : 2017, "month" : 10, "date" : 1
+				},
+				"end" : {
+					"year" : 2017, "month" : 10, "date" : 27
+				}
+			},
+			"fare" : {
+				"staff" : "6.3",
+				"student" : "5"
+			},
+			"exceptmsg" : [
+				{
+					"zh" : "\u661f\u671f\u516d\u3001\u661f\u671f\u65e5\u53ca\u516c\u773e\u5047\u671f\u505c\u6b62\u670d\u52d9\u3002\u8acb\u4e58\u642d\u5176\u4ed6\u4ea4\u901a\u516c\u5177\u5982\u4e5d\u5df474K\u6216\u5c08\u7dda\u5c0f\u5df426\u865f\u3002",
+					"en" : "Service is not available on Saturdays, Sundays &amp; Public Holidays. Please travel by other transportations like KMB 74K or GMB Route 26."
+				},
+				{
+					"zh" : "\u661f\u671f\u65e5\u53ca\u516c\u773e\u5047\u671f\u505c\u6b62\u670d\u52d9\u3002\u8acb\u4e58\u642d\u5176\u4ed6\u4ea4\u901a\u516c\u5177\u5982\u4e5d\u5df474K\u6216\u5c08\u7dda\u5c0f\u5df426\u865f\u3002",
+					"en" : "Service is not available on Sundays &amp; Public Holidays. Please travel by other transportations like KMB 74K or GMB Route 26."
+				}
+			]
+		},
+		"specialtrip" : [
+			{
+				"period" : [
+					{"date" : "3/10-27/10"}
+				],
+				"day" : "1,2,3,4,5",
+				"color" : "#ffc000",
+				"description" : {
+					"zh" : "10\u67083\u65e5\u8d77(\u661f\u671f\u4e00\u81f3\u4e94\uff0c\u516c\u773e\u5047\u671f\u9664\u5916)\u4e4b\u984d\u5916\u52a0\u73ed\u8eca",
+					"en" : "Additional trips starting 3 Oct (Mondays to Fridays, except Public Holidays)"
+				}	
+			},
+			{
+				"period" : [
+					{"date" : "4/10-27/10"}
+				],
+				"day" : "3,5",
+				"color" : "#fce4d6",
+				"description" : {
+					"zh" : "10\u67084\u65e5\u30016\u65e5\u300111\u65e5\u300113\u65e5\u300118\u65e5\u300120\u65e5\u300125\u65e5\u53ca27\u65e5\u4e4b\u984d\u5916\u52a0\u73ed\u8eca",
+					"en" : "Additional trips on 4, 6, 11, 13, 18, 20, 25 &amp; 27 Oct"
+				}	
+			},
+			{
+				"period" : [
+					{"date" : "3/10-3/10"},
+					{"date" : "5/10-27/10"}
+				],
+				"day" : "1,2,3,4,5",
+				"color" : "#92d050",
+				"description" : {
+					"zh" : "10\u67083\u65e5\u8d77(\u661f\u671f\u4e00\u81f3\u4e94\uff0c\u516c\u773e\u5047\u671f\u53ca10\u67084\u65e5\u9664\u5916)\u4e4b\u984d\u5916\u52a0\u73ed\u8eca",
+					"en" : "Additional trips starting 3 Oct (Mondays to Fridays, except Public Holidays &amp; 4 Oct)"
+				}	
+			},
+			{
+				"period" : [
+					{"date" : "4/10-4/10"}
+				],
+				"day" : "3",
+				"color" : "#ffff00",
+				"description" : {
+					"zh" : "10\u67084\u65e5\u4e4b\u984d\u5916\u52a0\u73ed",
+					"en" : "Additional trips on 4 Oct"
+				}	
+			}
+		],
+		"timetable" : {
+			"weekday" : {
+				"tocampus" : [
+					{
+						"hour" : { "from" : 7, "to" : 7 },
+						"minute" : [
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false },
+							{"t" : "55", "st" : 0, "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 8, "to" : 8 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "05", "st" : "NA", "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "15", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "25", "st" : 0, "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 9, "to" : 9 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "05", "st" : "NA", "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "15", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 10, "to" : 11 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 12, "to" : 12 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "05", "st" : 1, "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 13, "to" : 13 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "45", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 14, "to" : 14 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "15", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "45", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 15, "to" : 17 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 18, "to" : 18 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "05", "st" : 2, "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "15", "st" : 2, "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 19, "to" : 19 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "45", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 20, "to" : 20 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "15", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "45", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 21, "to" : 21 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 22, "to" : 22 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "15", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "45", "st" : "NA", "blkd" : true }
+						]
+					},
+					{
+						"hour" : { "from" : 23, "to" : 23 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : true }
+						]
+					}
+				],
+				"fromcampus" : [
+					{
+						"hour" : { "from" : 8, "to" : 8 },
+						"minute" : [
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "15", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 9, "to" : 12 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 13, "to" : 13 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "45", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 14, "to" : 14 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "15", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "45", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 15, "to" : 15 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "35", "st" : 3, "blkd" : false },
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "45", "st" : 3, "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 16, "to" : 16 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "05", "st" : 3, "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "15", "st" : 3, "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 17, "to" : 18 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "25", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "35", "st" : "NA", "blkd" : false },
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "45", "st" : 2, "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false },
+							{"t" : "55", "st" : 2, "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 19, "to" : 19 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "45", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 20, "to" : 20 },	
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "15", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "45", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 21, "to" : 21 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "25", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "35", "st" : 2, "blkd" : false },
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 22, "to" : 22 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "15", "st" : "NA", "blkd" : false }
+						]
+					}
+				]
+			},
+			"saturday" : {
+				"tocampus" : [
+					{
+						"hour" : { "from" : 8, "to" : 9 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 10, "to" : 11 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "15", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "45", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 12, "to" : 13 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 14, "to" : 15 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "15", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "45", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 16, "to" : 18 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 19, "to" : 19 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false }
+						]
+					}
+				],
+				"fromcampus" : [
+					{
+						"hour" : { "from" : 8, "to" : 8 },
+						"minute" : [
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 9, "to" : 9 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 10, "to" : 11 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "15", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "45", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 12, "to" : 13 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 14, "to" : 15 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "15", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "45", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 16, "to" : 18 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false },
+							{"t" : "30", "st" : "NA", "blkd" : false },
+							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "50", "st" : "NA", "blkd" : false }
+						]
+					},
+					{
+						"hour" : { "from" : 19, "to" : 19 },
+						"minute" : [
+							{"t" : "00", "st" : "NA", "blkd" : false },
+							{"t" : "10", "st" : "NA", "blkd" : false },
+							{"t" : "20", "st" : "NA", "blkd" : false }
+						]
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>運動中心穿梭巴士</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+        <link rel="stylesheet" href="../../css/timetable.css" type="text/css"/>
+        <script type="text/javascript">
+            if (location.protocol != 'https:')
+            {
+                document.write("重新導向至 https:" + window.location.href.substring(window.location.protocol.length) + " ...")
+                location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+            }
+            if(document.documentElement.clientWidth <= 430) {        
+                document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=0.85');
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="../../script/main.js"></script>
+        <script type="text/javascript" src="../../script/dateParser-min.js"></script>
+        <script type="text/javascript" src="../../script/scshuttle.js"></script>        
+    </head>
+    <body>
+        <header><a href="../" class="back"><img src="../../icons/Back.png" alt="Back">主頁</a>運動中心穿梭巴士</header>
+        <div class="nextbus scshuttle" id="toscenter">往 運動中心<div class="time">N/A</div></div>
+        <table class="timetable scshuttle" id="to">           
+        </table>
+        <div class="nextbus scshuttle" id="fromscenter">往 大埔校園<div class="time">N/A</div></div>
+        <table class="timetable scshuttle" id="from">            
+        </table>        
+        <ol> 
+            <li id="period">時間表：N/A</li>
+            <li>車資：免費</li>
+            <li>資料有效期：2019年7月2日起適用</li>                     
+        </ol>
+        <ol>
+            <li>備註：</li>
+            <li>請拍職員證/學生證於車上的認證機</li>
+            <li>@ 只供登車</li>
+            <li># 只供下車</li> 
+            <li>^ 12:30及16:30由大埔校園開出班次將途經港鐵大埔墟站</li> 
+        </ol>    
+        <footer></footer>
+    </body>
+</html>
