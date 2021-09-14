@@ -264,10 +264,10 @@ $(document).ready(function(){
     month = date.getMonth()+1;
     day = date.getDate();    
     checkday = new RegExp(date.getDay());
+    url = "https://s1106385.github.io/json/cycle.json?rd=" + date.getTime();
     daystate = getDayState();
-    alert(getDayState());
 
-    $.get("../../json/cycle.json", function(xhr) {
+    $.get(url, function(xhr) {
         if(xhr.cycle !== undefined && xhr.cycle !== null) {
             jsondata = xhr.cycle;
             isSatAvailable = jsondata.info.issatavailable;

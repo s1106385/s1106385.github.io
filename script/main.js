@@ -1,1 +1,1 @@
-$(document).ready(function(){$("footer").html("EdU Trans &copy; 2018 Low-Tech Workshop.");});
+$(document).ready(function(){$("footer").html("EdU Trans &copy; 2021 Low-Tech Workshop.");});
