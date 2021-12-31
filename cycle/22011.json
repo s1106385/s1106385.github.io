@@ -33,7 +33,7 @@
 					{"date" : "1/1-31/1"}
 				],
 				"day" : "1",
-				"color" : "#fff2cc",
+				"color" : "#e2efda",
 				"description" : {
 					"zh" : "1\u67083\u65e5\u8d77\u4e4b\u984d\u5916\u52a0\u73ed\u8eca(\u9022\u661f\u671f\u4e00)",
 					"en" : "Additional trips from 3 Jan (Monday)"
@@ -44,7 +44,7 @@
 					{"date" : "1/1-31/1"}
 				],
 				"day" : "2,3,4,5",
-				"color" : "#e2efda",
+				"color" : "#fff2cc",
 				"description" : {
 					"zh" : "1\u67084\u65e5\u8d77\u4e4b\u984d\u5916\u52a0\u73ed\u8eca(\u9022\u661f\u671f\u4e8c\u81f3\u4e94)",
 					"en" : "Additional trips from 4 Jan (Tuesday to Friday)"
@@ -58,7 +58,8 @@
 						"hour" : { "from" : 7, "to" : 7 },
 						"minute" : [
 							{"t" : "40", "st" : "NA", "blkd" : false },
-							{"t" : "50", "st" : "NA", "blkd" : false }
+							{"t" : "50", "st" : "NA", "blkd" : false },
+							{"t" : "55", "st" : "NA", "blkd" : false }
 						]
 					},
 					{
@@ -278,6 +279,7 @@
 							{"t" : "30", "st" : "NA", "blkd" : false },
 							{"t" : "35", "st" : "NA", "blkd" : false },
 							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "45", "st" : "NA", "blkd" : false },
 							{"t" : "50", "st" : "NA", "blkd" : false },
 							{"t" : "55", "st" : "NA", "blkd" : false }
 						]
@@ -312,6 +314,7 @@
 							{"t" : "30", "st" : "NA", "blkd" : false },
 							{"t" : "35", "st" : "NA", "blkd" : false },
 							{"t" : "40", "st" : "NA", "blkd" : false },
+							{"t" : "45", "st" : "NA", "blkd" : false },
 							{"t" : "50", "st" : "NA", "blkd" : false }
 						]
 					},
