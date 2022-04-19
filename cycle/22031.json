@@ -1,15 +1,15 @@
 {
 	"cycle" : {
-		"id" : "22013",
+		"id" : "22031",
 		"info" : {
 			"issatavailable" : 1,
 			"issunavailable" : 0,
 			"effdate" : {
 				"start" : {
-					"year" : 2022, "month" : 1, "date" : 31
+					"year" : 2022, "month" : 3, "date" : 7
 				},
 				"end" : {
-					"year" : 2022, "month" : 2, "date" : 28
+					"year" : 2022, "month" : 4, "date" : 24
 				}
 			},
 			"fare" : {
@@ -27,19 +27,7 @@
 				}
 			]
 		},
-		"specialtrip" : [
-			{
-				"period" : [
-					{"date" : "31/1-28/2"}
-				],
-				"day" : "1",
-				"color" : "#e2efda",
-				"description" : {
-					"zh" : "1\u670831\u65e5\u8d77\u4e4b\u984d\u5916\u52a0\u73ed\u8eca(\u9022\u661f\u671f\u4e00)",
-					"en" : "Additional trips from 31 Jan (Monday)"
-				}	
-			}
-		],
+		"specialtrip" : [],
 		"timetable" : {
 			"weekday" : {
 				"tocampus" : [
@@ -51,20 +39,7 @@
 						]
 					},
 					{
-						"hour" : { "from" : 8, "to" : 10 },
-						"minute" : [
-							{"t" : "00", "st" : "NA", "blkd" : false },
-							{"t" : "05", "st" : "NA", "blkd" : false },
-							{"t" : "10", "st" : "NA", "blkd" : false },
-							{"t" : "15", "st" : "NA", "blkd" : false },
-							{"t" : "20", "st" : "NA", "blkd" : false },
-							{"t" : "30", "st" : "NA", "blkd" : false },
-							{"t" : "40", "st" : "NA", "blkd" : false },
-							{"t" : "50", "st" : "NA", "blkd" : false }
-						]
-					},
-					{
-						"hour" : { "from" : 11, "to" : 12 },
+						"hour" : { "from" : 8, "to" : 9 },
 						"minute" : [
 							{"t" : "00", "st" : "NA", "blkd" : false },
 							{"t" : "10", "st" : "NA", "blkd" : false },
@@ -75,26 +50,15 @@
 						]
 					},
 					{
-						"hour" : { "from" : 13, "to" : 13 },
+						"hour" : { "from" : 10, "to" : 16 },
 						"minute" : [
 							{"t" : "00", "st" : "NA", "blkd" : false },
-							{"t" : "10", "st" : "NA", "blkd" : false },
 							{"t" : "20", "st" : "NA", "blkd" : false },
-							{"t" : "30", "st" : "NA", "blkd" : false },
-							{"t" : "45", "st" : "NA", "blkd" : false }
+							{"t" : "40", "st" : "NA", "blkd" : false }
 						]
 					},
 					{
-						"hour" : { "from" : 14, "to" : 14 },
-						"minute" : [
-							{"t" : "00", "st" : "NA", "blkd" : false },
-							{"t" : "15", "st" : "NA", "blkd" : false },
-							{"t" : "30", "st" : "NA", "blkd" : false },
-							{"t" : "45", "st" : "NA", "blkd" : false }
-						]
-					},
-					{
-						"hour" : { "from" : 15, "to" : 17 },
+						"hour" : { "from" : 17, "to" : 18 },
 						"minute" : [
 							{"t" : "00", "st" : "NA", "blkd" : false },
 							{"t" : "10", "st" : "NA", "blkd" : false },
@@ -105,29 +69,7 @@
 						]
 					},
 					{
-						"hour" : { "from" : 18, "to" : 18 },
-						"minute" : [
-							{"t" : "00", "st" : "NA", "blkd" : false },
-							{"t" : "05", "st" : "NA", "blkd" : false },
-							{"t" : "10", "st" : "NA", "blkd" : false },
-							{"t" : "15", "st" : "NA", "blkd" : false },
-							{"t" : "20", "st" : "NA", "blkd" : false },
-							{"t" : "30", "st" : "NA", "blkd" : false },
-							{"t" : "40", "st" : "NA", "blkd" : false },
-							{"t" : "50", "st" : "NA", "blkd" : false }
-						]
-					},
-					{
-						"hour" : { "from" : 19, "to" : 19 },
-						"minute" : [
-							{"t" : "00", "st" : "NA", "blkd" : false },
-							{"t" : "10", "st" : "NA", "blkd" : false },
-							{"t" : "20", "st" : "NA", "blkd" : false },
-							{"t" : "30", "st" : "NA", "blkd" : false }
-						]
-					},
-					{
-						"hour" : { "from" : 20, "to" : 22 },
+						"hour" : { "from" : 19, "to" : 22 },
 						"minute" : [
 							{"t" : "00", "st" : "NA", "blkd" : false },
 							{"t" : "30", "st" : "NA", "blkd" : false }
@@ -152,7 +94,7 @@
 						]
 					},
 					{
-						"hour" : { "from" : 9, "to" : 11 },
+						"hour" : { "from" : 9, "to" : 9 },
 						"minute" : [
 							{"t" : "00", "st" : "NA", "blkd" : false },
 							{"t" : "10", "st" : "NA", "blkd" : false },
@@ -163,46 +105,11 @@
 						]
 					},
 					{
-						"hour" : { "from" : 12, "to" : 12 },
+						"hour" : { "from" : 10, "to" : 16 },
 						"minute" : [
 							{"t" : "00", "st" : "NA", "blkd" : false },
-							{"t" : "10", "st" : "NA", "blkd" : false },
 							{"t" : "20", "st" : "NA", "blkd" : false },
-							{"t" : "30", "st" : "NA", "blkd" : false },
-							{"t" : "35", "st" : 0, "blkd" : false },
-							{"t" : "40", "st" : "NA", "blkd" : false },
-							{"t" : "45", "st" : 0, "blkd" : false },
-							{"t" : "50", "st" : "NA", "blkd" : false }
-						]
-					},
-					{
-						"hour" : { "from" : 13, "to" : 13 },
-						"minute" : [
-							{"t" : "00", "st" : "NA", "blkd" : false },
-							{"t" : "10", "st" : "NA", "blkd" : false },
-							{"t" : "20", "st" : "NA", "blkd" : false },
-							{"t" : "30", "st" : "NA", "blkd" : false },
-							{"t" : "45", "st" : "NA", "blkd" : false }
-						]
-					},
-					{
-						"hour" : { "from" : 14, "to" : 14 },
-						"minute" : [
-							{"t" : "00", "st" : "NA", "blkd" : false },
-							{"t" : "15", "st" : "NA", "blkd" : false },
-							{"t" : "30", "st" : "NA", "blkd" : false },
-							{"t" : "45", "st" : "NA", "blkd" : false }
-						]
-					},
-					{
-						"hour" : { "from" : 15, "to" : 16 },
-						"minute" : [
-							{"t" : "00", "st" : "NA", "blkd" : false },
-							{"t" : "10", "st" : "NA", "blkd" : false },
-							{"t" : "20", "st" : "NA", "blkd" : false },
-							{"t" : "30", "st" : "NA", "blkd" : false },
-							{"t" : "40", "st" : "NA", "blkd" : false },
-							{"t" : "50", "st" : "NA", "blkd" : false }
+							{"t" : "40", "st" : "NA", "blkd" : false }
 						]
 					},
 					{
@@ -211,24 +118,13 @@
 							{"t" : "00", "st" : "NA", "blkd" : false },
 							{"t" : "10", "st" : "NA", "blkd" : false },
 							{"t" : "20", "st" : "NA", "blkd" : false },
-							{"t" : "25", "st" : "NA", "blkd" : false },
 							{"t" : "30", "st" : "NA", "blkd" : false },
-							{"t" : "35", "st" : "NA", "blkd" : false },
 							{"t" : "40", "st" : "NA", "blkd" : false },
 							{"t" : "50", "st" : "NA", "blkd" : false }
 						]
 					},
 					{
-						"hour" : { "from" : 19, "to" : 19 },
-						"minute" : [
-							{"t" : "00", "st" : "NA", "blkd" : false },
-							{"t" : "10", "st" : "NA", "blkd" : false },
-							{"t" : "20", "st" : "NA", "blkd" : false },
-							{"t" : "30", "st" : "NA", "blkd" : false }
-						]
-					},
-					{
-						"hour" : { "from" : 20, "to" : 21 },	
+						"hour" : { "from" : 19, "to" : 21 },	
 						"minute" : [
 							{"t" : "00", "st" : "NA", "blkd" : false },
 							{"t" : "30", "st" : "NA", "blkd" : false }
@@ -257,36 +153,15 @@
 						]
 					},
 					{
-						"hour" : { "from" : 10, "to" : 11 },
+						"hour" : { "from" : 10, "to" : 16 },
 						"minute" : [
 							{"t" : "00", "st" : "NA", "blkd" : false },
-							{"t" : "15", "st" : "NA", "blkd" : false },
-							{"t" : "30", "st" : "NA", "blkd" : false },
-							{"t" : "45", "st" : "NA", "blkd" : false }
-						]
-					},
-					{
-						"hour" : { "from" : 12, "to" : 13 },
-						"minute" : [
-							{"t" : "00", "st" : "NA", "blkd" : false },
-							{"t" : "10", "st" : "NA", "blkd" : false },
 							{"t" : "20", "st" : "NA", "blkd" : false },
-							{"t" : "30", "st" : "NA", "blkd" : false },
-							{"t" : "40", "st" : "NA", "blkd" : false },
-							{"t" : "50", "st" : "NA", "blkd" : false }
+							{"t" : "40", "st" : "NA", "blkd" : false }
 						]
 					},
 					{
-						"hour" : { "from" : 14, "to" : 15 },
-						"minute" : [
-							{"t" : "00", "st" : "NA", "blkd" : false },
-							{"t" : "15", "st" : "NA", "blkd" : false },
-							{"t" : "30", "st" : "NA", "blkd" : false },
-							{"t" : "45", "st" : "NA", "blkd" : false }
-						]
-					},
-					{
-						"hour" : { "from" : 16, "to" : 18 },
+						"hour" : { "from" : 17, "to" : 18 },
 						"minute" : [
 							{"t" : "00", "st" : "NA", "blkd" : false },
 							{"t" : "10", "st" : "NA", "blkd" : false },
@@ -326,36 +201,15 @@
 						]
 					},
 					{
-						"hour" : { "from" : 10, "to" : 11 },
+						"hour" : { "from" : 10, "to" : 16 },
 						"minute" : [
 							{"t" : "00", "st" : "NA", "blkd" : false },
-							{"t" : "15", "st" : "NA", "blkd" : false },
-							{"t" : "30", "st" : "NA", "blkd" : false },
-							{"t" : "45", "st" : "NA", "blkd" : false }
-						]
-					},
-					{
-						"hour" : { "from" : 12, "to" : 13 },
-						"minute" : [
-							{"t" : "00", "st" : "NA", "blkd" : false },
-							{"t" : "10", "st" : "NA", "blkd" : false },
 							{"t" : "20", "st" : "NA", "blkd" : false },
-							{"t" : "30", "st" : "NA", "blkd" : false },
-							{"t" : "40", "st" : "NA", "blkd" : false },
-							{"t" : "50", "st" : "NA", "blkd" : false }
+							{"t" : "40", "st" : "NA", "blkd" : false }
 						]
 					},
 					{
-						"hour" : { "from" : 14, "to" : 15 },
-						"minute" : [
-							{"t" : "00", "st" : "NA", "blkd" : false },
-							{"t" : "15", "st" : "NA", "blkd" : false },
-							{"t" : "30", "st" : "NA", "blkd" : false },
-							{"t" : "45", "st" : "NA", "blkd" : false }
-						]
-					},
-					{
-						"hour" : { "from" : 16, "to" : 18 },
+						"hour" : { "from" : 17, "to" : 18 },
 						"minute" : [
 							{"t" : "00", "st" : "NA", "blkd" : false },
 							{"t" : "10", "st" : "NA", "blkd" : false },
@@ -369,7 +223,6 @@
 						"hour" : { "from" : 19, "to" : 19 },
 						"minute" : [
 							{"t" : "00", "st" : "NA", "blkd" : false },
-							{"t" : "10", "st" : "NA", "blkd" : false },
 							{"t" : "20", "st" : "NA", "blkd" : false }
 						]
 					}
