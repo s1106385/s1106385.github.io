@@ -9,7 +9,7 @@
 					"year" : 2022, "month" : 5, "date" : 3
 				},
 				"end" : {
-					"year" : 2022, "month" : 5, "date" : 15
+					"year" : 2022, "month" : 6, "date" : 19
 				}
 			},
 			"fare" : {
@@ -30,7 +30,7 @@
 		"specialtrip" : [
 			{
 				"period" : [
-					{"date" : "3/5-31/5"}
+					{"date" : "3/5-30/6"}
 				],
 				"day" : "1,2,3,4,5",
 				"color" : "#e2efda",
